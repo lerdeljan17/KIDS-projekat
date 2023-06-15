@@ -1,0 +1,25 @@
+03:09:40 - ChordState -> addNodes() : allNodeInfo = [[28|localhost|1100]]
+03:09:40 - ChordState -> addNodes() : allNodeInfo = [[4|localhost|1300], [28|localhost|1100]]
+03:09:40 - ChordState -> addNodes() : allNodeInfo = [[4|localhost|1300], [24|localhost|1400], [28|localhost|1100]]
+03:09:45 - SuzukiKasamiMutex -> lock() : Node with ID 48 asked for TOKEN!
+03:09:45 - Node 48 receieved Token from 28
+03:09:45 - SuzukiKasamiMutex  Node 48 is waiting........
+03:09:45 - SuzukiKasamiMutex ID 48 got token for CS........
+03:09:45 - ChordState -> addNodes() : allNodeInfo = [[0|localhost|1600], [4|localhost|1300], [24|localhost|1400], [28|localhost|1100]]
+03:09:45 - SuzukiKasamiMutex unlock Node  48 is leaving CS........
+03:09:50 - RequestCSHandler : Node with ID 48 sent TOKEN to node with ID 0
+03:10:00 - Node 48 received Token from 28
+03:10:35 - Node 48 received Token from 28
+03:10:40 - SuzukiKasamiMutex -> lock() : Node with ID 48 asked for TOKEN!
+03:10:40 - Node 48 receieved Token from 28
+03:10:40 - SuzukiKasamiMutex  Node 48 is waiting........
+03:10:40 - SuzukiKasamiMutex ID 48 got token for CS........
+Exception in thread "Thread-1" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at cli.CLIParser.run(CLIParser.java:73)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+03:10:40 - User asked for file folder witch does not exist in system!
+03:10:40 - isMapCompleted -> Mapa{}
+03:10:40 - SuzukiKasamiMutex unlock Node ID 48 sent TOKEN to node with ID 0
+03:10:40 - SuzukiKasamiMutex unlock Node  48 is leaving CS........
+03:10:45 - Node 48 received Token from 28

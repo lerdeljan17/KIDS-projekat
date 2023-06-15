@@ -1,0 +1,26 @@
+03:09:45 - ChordState -> addNodes() : allNodeInfo = [[4|localhost|1300], [24|localhost|1400], [28|localhost|1100], [48|localhost|1200]]
+03:09:50 - Node 0 received Token from 48
+03:10:00 - SuzukiKasamiMutex -> lock() : Node with ID 0 asked for TOKEN!
+03:10:00 - Node 0 receieved Token from 48
+03:10:00 - SuzukiKasamiMutex  Node 0 is waiting........
+03:10:00 - SuzukiKasamiMutex ID 0 got token for CS........
+03:10:00 - isMapCompleted -> Mapa{folder=Optional[Data{name='folder_dir', content='folder\fileInFolder', directory=true, version=0}], folder\fileInFolder=Optional.empty}
+03:10:00 - isMapCompleted -> folder
+03:10:00 - isMapCompleted -> folder\fileInFolder
+03:10:00 - isMapCompleted -> Mapa{folder=Optional[Data{name='folder_dir', content='folder\fileInFolder', directory=true, version=0}], folder\fileInFolder=Optional[Data{name='folder\fileInFolder_0', content='test123', directory=false, version=0}]}
+03:10:00 - isMapCompleted -> folder
+03:10:00 - isMapCompleted -> folder\fileInFolder
+03:10:00 - SuzukiKasamiMutex unlock Node  0 is leaving CS........
+03:10:11 - SuzukiKasamiMutex ID 0 got token for CS........
+03:10:11 - In REMOVE found file folder
+Exception in thread "Thread-1" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at cli.CLIParser.run(CLIParser.java:73)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+03:10:11 - SuzukiKasamiMutex unlock Node  0 is leaving CS........
+03:10:15 - RequestCSHandler : Node with ID 0 sent TOKEN to node with ID 4
+03:10:35 - Node 0 received Token from 48
+03:10:40 - PullHandler for 53 : folder   node : 1600
+03:10:40 - Node 1600 [53]
+03:10:40 - Node 0 received Token from 48
+03:10:45 - Node 0 received Token from 48

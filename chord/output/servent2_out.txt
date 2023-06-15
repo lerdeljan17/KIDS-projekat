@@ -1,0 +1,59 @@
+03:09:40 - storage data\storage2 working data\working2
+03:09:40 - Starting servent [4|localhost|1300]
+03:09:40 - Pausing for 30000 ms
+03:09:40 - Sending message [4|1300|0||NEW_NODE|1100|28]
+03:09:40 - Got message [28|1100|3||WELCOME|1300|4]
+03:09:40 - Sending message [4|1300|1||UPDATE|1100|28]
+03:09:40 - Got message [4|1300|3|1100,1200|UPDATE|1300|4]
+03:09:40 - Sending message [4|1300|2||CONNECTED|1100|28]
+03:09:40 - Bootstrap notified for node 4
+03:09:40 - Got message [24|1400|4|1100,1200|UPDATE|1300|4]
+03:09:40 - Sending message [24|1400|3|1100,1200,1300|UPDATE|1400|24]
+03:09:45 - Got message [48|1200|5||REQUEST|1300|4]
+03:09:45 - Sending message [48|1200|4||REQUEST|1400|24]
+03:09:45 - Got message [0|1600|6||NEW_NODE|1300|4]
+03:09:45 - ChordState -> isCollision(). allNodeInfo = [[24|localhost|1400], [28|localhost|1100], [48|localhost|1200]]
+03:09:45 - Sending message [4|1300|5||WELCOME|1600|0]
+03:09:45 - Got message [0|1600|1||UPDATE|1300|4]
+03:09:45 - Sending message [0|1600|6|1300|UPDATE|1400|24]
+03:09:50 - Got message [28|1100|4||REQUEST|1300|4]
+03:09:50 - Sending message [28|1100|7||REQUEST|1400|24]
+03:10:00 - Got message [0|1600|5||REQUEST|1300|4]
+03:10:00 - Sending message [0|1600|8||REQUEST|1400|24]
+03:10:00 - Got message [0|1600|7||ADD|1300|4]
+03:10:00 - Sending message [4|1300|9||ADD|1400|24]
+03:10:10 - Pausing for 10000 ms
+03:10:11 - Got message [0|1600|8||REMOVE_FILE|1300|4]
+03:10:11 - Sending message [4|1300|10||REMOVE_FILE|1400|24]
+03:10:15 - Got message [0|1600|9||TOKEN|1300|4]
+03:10:15 - Got message [24|1400|10||REQUEST|1300|4]
+03:10:15 - Sending message [24|1400|11||REQUEST|1400|24]
+03:10:15 - Sending message [4|1300|12||TOKEN|1400|24]
+03:10:15 - Got message [28|1100|11||REMOVE_UPDATE|1300|4]
+03:10:15 - Sending message [28|1100|13||REMOVE_UPDATE|1100|28]
+03:10:20 - Pausing for 15000 ms
+03:10:35 - Sending message [4|1300|14||REQUEST|1100|28]
+03:10:35 - Got message [0|1600|12||TOKEN|1300|4]
+03:10:35 - Got message [4|1300|13||REQUEST|1300|4]
+03:10:35 - Please wait...
+03:10:35 - Pausing for 10000 ms
+03:10:35 - Sending message [4|1300|15||PULL|1100|28]
+03:10:35 - Got message [0|1600|14||PULL_TELL|1300|4]
+03:10:40 - Got message [48|1200|15||REQUEST|1300|4]
+03:10:40 - Sending message [4|1300|16||TOKEN|1100|28]
+03:10:40 - Sending message [48|1200|17||REQUEST|1100|28]
+03:10:40 - Got message [28|1100|16||REQUEST|1300|4]
+03:10:40 - Sending message [28|1100|18||REQUEST|1100|28]
+03:10:40 - Got message [0|1600|18||TOKEN|1300|4]
+03:10:40 - Sending message [4|1300|19||TOKEN|1100|28]
+03:10:45 - Sending message [4|1300|20||REQUEST|1100|28]
+03:10:45 - Got message [4|1300|19||REQUEST|1300|4]
+03:10:45 - Got message [0|1600|20||TOKEN|1300|4]
+03:10:45 - Pausing for 10000 ms
+03:10:45 - Sending message [4|1300|21||COMMIT|1100|28]
+03:10:45 - Got message [0|1600|21||CONFLICT|1300|4]
+03:10:45 - Conflict happened! with file v Please choose action command. 1. view 2. push 3. pull
+03:10:55 - Conflict happened! with file v Please choose action command. 1. view 2. push 3. pull
+03:10:55 - Pausing for 10000 ms
+03:11:05 - Sending message [4|1300|22||PUSH_RESOLVE|1100|28]
+03:11:05 - Got message [0|1600|22||PUSH_RESOLVE_TELL|1300|4]

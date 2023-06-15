@@ -1,0 +1,14 @@
+03:09:40 - PERSISTING data\storage3\v_5 on node 1400
+03:09:40 - ChordState -> addNodes() : allNodeInfo = [[28|localhost|1100], [48|localhost|1200], [4|localhost|1300]]
+03:09:45 - ChordState -> addNodes() : allNodeInfo = [[28|localhost|1100], [48|localhost|1200], [0|localhost|1600], [4|localhost|1300]]
+03:09:50 - Node 24 received Token from 0
+03:10:00 - AddHandler. File [ folder\fileInFolder ]. Key 22
+03:10:11 - remove() : folder\fileInFolder NODE 1400
+03:10:11 - In REMOVE found file folder\fileInFolder
+03:10:15 - SuzukiKasamiMutex -> lock() : Node with ID 24 asked for TOKEN!
+03:10:15 - Node 24 receieved Token from 4
+03:10:15 - SuzukiKasamiMutex  Node 24 is waiting........
+03:10:15 - SuzukiKasamiMutex ID 24 got token for CS........
+03:10:15 - turnOffNode Node 1400 is turning off! Goodbye Node 1100
+03:10:15 - SuzukiKasamiMutex -> unlockb () : Node with ID 24 sent TOKEN to node with ID 28
+03:10:15 - SuzukiKasamiMutex unlock Node  24 is leaving CS........

@@ -1,0 +1,33 @@
+03:09:40 - storage data\storage3 working data\working3
+03:09:40 - Starting servent [24|localhost|1400]
+03:09:40 - Pausing for 20000 ms
+03:09:40 - Sending message [24|1400|0||NEW_NODE|1100|28]
+03:09:40 - Got message [28|1100|5||WELCOME|1400|24]
+03:09:40 - Sending message [24|1400|1||UPDATE|1100|28]
+03:09:40 - Got message [24|1400|3|1100,1200,1300|UPDATE|1400|24]
+03:09:40 - Sending message [24|1400|2||CONNECTED|1100|28]
+03:09:40 - Bootstrap notified for node 24
+03:09:45 - Got message [48|1200|4||REQUEST|1400|24]
+03:09:45 - Sending message [48|1200|3||REQUEST|1100|28]
+03:09:45 - Got message [0|1600|6|1300|UPDATE|1400|24]
+03:09:45 - Sending message [0|1600|4|1300,1400|UPDATE|1100|28]
+03:09:45 - Got message [0|1600|2||CONNECTED|1400|24]
+03:09:45 - Sending message [24|1400|5||CONNECTED|1100|28]
+03:09:50 - Got message [0|1600|3||TOKEN|1400|24]
+03:09:50 - Got message [28|1100|7||REQUEST|1400|24]
+03:09:50 - Sending message [28|1100|6||REQUEST|1100|28]
+03:09:50 - Sending message [24|1400|7||TOKEN|1100|28]
+03:10:00 - Got message [0|1600|8||REQUEST|1400|24]
+03:10:00 - Sending message [0|1600|8||REQUEST|1100|28]
+03:10:00 - Pausing for 15000 ms
+03:10:00 - Got message [4|1300|9||ADD|1400|24]
+03:10:00 - Sending message [24|1400|9||ADD_TELL|1100|28]
+03:10:11 - Got message [4|1300|10||REMOVE_FILE|1400|24]
+03:10:11 - Sending message [24|1400|10||REMOVE_FILE_TELL|1100|28]
+03:10:15 - Sending message [24|1400|11||REQUEST|1100|28]
+03:10:15 - Got message [24|1400|11||REQUEST|1400|24]
+03:10:15 - Got message [4|1300|12||TOKEN|1400|24]
+03:10:15 - Sending message [24|1400|12|Node 1400 is turning off!|GOODBYE|1100|28]
+03:10:15 - Quiting.... 4
+03:10:15 - Got message [28|1100|19||GOODBYE_TELL|1400|24]
+03:10:15 - Sending message [24|1400|13||TOKEN|1100|28]

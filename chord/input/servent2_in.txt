@@ -1,0 +1,10 @@
+pause 30000
+pause 10000
+pause 15000
+pull folder\fileInFolder
+pause 10000
+commit v_3
+pause 10000
+view
+pause 10000
+push_resolve
